@@ -11,6 +11,7 @@ public class PrestamoLibroId implements Serializable {
 
     @Override
     public boolean equals(Object o) {
+
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PrestamoLibroId that = (PrestamoLibroId) o;
